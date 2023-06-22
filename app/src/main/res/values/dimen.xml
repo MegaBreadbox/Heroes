@@ -3,4 +3,5 @@
     <dimen name="card_elevation">2dp</dimen>
     <dimen name="card_height">105dp</dimen>
     <dimen name="big_padding">16dp</dimen>
+    <dimen name="medium_padding">8dp</dimen>
 </resources>

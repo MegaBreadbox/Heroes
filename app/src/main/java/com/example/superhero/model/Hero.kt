@@ -10,7 +10,7 @@ data class Hero(
     @DrawableRes val imageRes: Int
 )
 
-object heroRepository{
+object HeroRepository{
 
     val heroList = listOf(
         Hero(

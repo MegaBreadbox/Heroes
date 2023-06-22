@@ -22,7 +22,6 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.superhero.model.Hero
 import com.example.superhero.model.HeroRepository
@@ -46,21 +45,20 @@ fun HeroCard(
         Row{
             Column(
                 modifier.padding(dimensionResource(R.dimen.big_padding))
+                    .weight(1f)
             ){
                 Text(
                     text = stringResource(hero.nameRes),
                     style = MaterialTheme.typography.bodyLarge,
-                    softWrap = true
 
                 )
                 Text(
                     text = stringResource(hero.descriptionRes),
                     style = MaterialTheme.typography.displaySmall,
-                    overflow = TextOverflow.Visible
                 )
             }
             Spacer(
-                modifier.weight(1f)
+                modifier.size(dimensionResource(R.dimen.big_padding))
             )
             Box(
                 modifier

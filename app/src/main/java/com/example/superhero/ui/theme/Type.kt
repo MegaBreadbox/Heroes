@@ -21,15 +21,15 @@ val Typography = Typography(
     bodyLarge = TextStyle(
         fontFamily = cabinRegular,
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
+        fontSize = 18.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
     ),
     displaySmall = TextStyle(
         fontFamily = cabinBold,
         fontWeight = FontWeight.Bold,
-        fontSize = 12.sp,
-        lineHeight = 12.sp,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
         letterSpacing = 0.5.sp
 
     )
